@@ -1,0 +1,83 @@
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+    font-family: inherit;
+    line-height: inherit;
+    --tw-border-opacity: 1;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    outline: 0;
+    --tw-shadow: 0 0 rgba(0,0,0,0);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);
+    --tw-ring-shadow: 0 0 rgba(0,0,0,0);
+    transition: transform .001s linear !important;
+    transition-delay: .001s !important;
+    animation-timing-function: step-end !important;
+    animation-iteration-count: 1 !important;
+
+.stamped-summary-actions-clear, .stamped-summary-actions-mobile-filter, .stamped-summary-actions-newquestion, .stamped-summary-actions-newreview {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    width: auto;
+    line-height: 30px;
+    background: 0 0;
+    color: #ffffff;
+    border: 1px solid #ccd6e0;
+    padding: 3px 20px;
+    border-radius: 3px;
+    font-weight: 700;
+    box-shadow: 2px 3px 5px 0 #8888886b!important;
+}
+
+span.stamped-summary-actions-newquestion.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgb(252 104 110 / 75%);
+}
+
+span.stamped-summary-actions-newreview.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgb(252 104 110 / 75%);
+}
+
+span.stamped-summary-actions-newquestion.btn-hover.color-4:hover {
+    /* border: 1px solid #673ab7; */
+    
+     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+span.stamped-summary-actions-newreview.btn-hover.color-4:hover {
+    
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+i.stamped-fa.stamped-fa-star.bluey {
+    color: #0092d6;
+}
+
+.summary-rating-bar-content.blue-bar {
+    background: #0092d6;
+}
+
+.hvr-glow {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.hvr-glow:hover {
+    opacity: 1!important;
+    box-shadow: 0px 5px 5px 0px rgb(219 192 14 / 50%);
+}
+
